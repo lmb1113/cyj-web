@@ -18,7 +18,7 @@ const downloadFunc = (t) => {
   switch (t) {
     case "win":
       // MessagePlugin.success("马上下载")
-      downloadFile("https://c.0a0a.cn/cyj/1.0.6.exe", "穿云箭.exe")
+      downloadFile("https://c.0a0a.cn/api/download", "穿云箭.exe")
       return
     case "mac":
       MessagePlugin.warning("开发中")
